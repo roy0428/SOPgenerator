@@ -1,6 +1,6 @@
-# generator
+# Generator
 
-#### Requirements
+## Requirements
 One .bag corrsponding with these files:
 
 - Raw: .bag
