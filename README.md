@@ -1,7 +1,5 @@
 # generator
 
-## Any
-
 #### Requirements
 One .bag corrsponding with these files:
 
@@ -12,7 +10,7 @@ One .bag corrsponding with these files:
 - Json file: .json
 - Video: RGB Frame, .mp4 (youtube) 
 
-#### Run（windows)
+#### Run
 ```
 .\grap_filename.bat
 enter filename only
