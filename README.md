@@ -16,7 +16,6 @@ One .bag corrsponding with these files:
 .\grap_filename.bat
 enter filename only
 ```
-
 Generate following file:
 - filenames.csv
 - labeled.csv
