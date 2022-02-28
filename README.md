@@ -10,7 +10,7 @@ One .bag corrsponding with these files:
 - Json file: .json
 - Video: RGB Frame, .mp4 (youtube) 
 
-#### Run
+### Run
 ```
 .\grap_filename.bat
 enter filename only
