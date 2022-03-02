@@ -85,10 +85,7 @@ for i in range(len(filename_json_4)):
 '''    
 data = pd.read_csv(args.sample_path)
 #print(data)
-index = [[] for _ in range(len(filename_png))]
-a = [[] for _ in range(len(filename_png))]
-b = [[] for _ in range(len(filename_png))]
-c = [[] for _ in range(len(filename_png))]
+index = [[] for _ in range(len(filename_png)+1)]
 
 label_type = []
 count_intersection = []
@@ -129,9 +126,9 @@ for k in range(len(filename_png)):
                 
 #print(arrLists)
 #print(lst_no)
-lst_label_type = [[] for _ in range(len(filename_png))]
-lst_count_intersection = [[] for _ in range(len(filename_png))]
-lst_count_spacing = [[] for _ in range(len(filename_png))]
+lst_label_type = [[] for _ in range(len(filename_png)+1)]
+lst_count_intersection = [[] for _ in range(len(filename_png)+1)]
+lst_count_spacing = [[] for _ in range(len(filename_png)+1)]
 for i in range(len(filename_png)):
     for j in range(len(lst_no)):
         if i == lst_no[j]:
