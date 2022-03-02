@@ -7,7 +7,7 @@ One .bag corrsponding with these files:
 - Raw: .bag
 - Aligned Frames: 200 
 - Coord: .npy
-- Lable list: (file ID, label type, labeling, contributor, QC)
+- Lable list: (file ID, label type, number of types, labeling, contributor, QC)
 - Json file: .json
 - Video: RGB Frame, .mp4 (youtube) 
 
