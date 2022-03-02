@@ -23,20 +23,10 @@ Generate following file:
 - video
 
 ### Directory Layout
-
-   ├── bag                 
-      ├── labeled
-        ├── 019-U_girder, 20210407-U_girder, 20210407-wall, 20210416-MRT_Station
-          ├── all annotations file `.json`
-      ├── labeled_csv_list   
-      ├── tools
-      ├── script_file
-      
      .
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
-    └── README.md
+    ├── bag                   
+    ├── labeled
+        ├── 019-U_girder, 20210407-U_girder, 20210407-wall, 20210416-MRT_Station
+    ├── labeled_csv_list                       
+    ├── tools 
+    └── script_file
