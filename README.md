@@ -21,4 +21,3 @@ Generate following file:
 - elements.csv
 - sample.csv > result
 - video
-- 
