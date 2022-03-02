@@ -21,3 +21,14 @@ Generate following file:
 - elements.csv
 - sample.csv > result
 - video
+
+### Directory Layout
+
+ ├── bag                 
+    ├── labeled
+      ├── 019-U_girder, 20210407-U_girder, 20210407-wall, 20210416-MRT_Station
+        ├── all annotations file `.json`
+    ├── labeled_csv_list   
+    ├── tools
+    ├── script_file
+ 
