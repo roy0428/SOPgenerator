@@ -18,7 +18,7 @@ enter filename only
 ```
 Generate following file:
 - filenames.csv
-- labeled.csv
+- elements.csv
 - sample.csv > result
 - video
-
+- 
