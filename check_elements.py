@@ -98,7 +98,7 @@ for k in range(len(filename_png)):
     for i in range(len(filename_json_1)):    
         if filename_json_1[i,0] == filename_png[k,0]:
             index[k+1].append(1)
-            appenders = get_elements(re.sub(r"[^a-zA-Z0-9/_.-]","",str('labeled/2019-U_girder/'+filename_png[k-1]+'.json')))
+            appenders = get_elements(re.sub(r"[^a-zA-Z0-9/_.-]","",str('labeled/2019-U_girder/'+filename_png[k]+'.json')))
             for x, lst in zip(appenders, arrLists):
                 lst.append(x)
             lst_no.append(k+1)
@@ -112,14 +112,14 @@ for k in range(len(filename_png)):
     for i in range(len(filename_json_3)):    
         if filename_json_3[i,0] == filename_png[k,0]:
             index[k+1].append(1)
-            appenders = get_elements(re.sub(r"[^a-zA-Z0-9/_.-]","",str('labeled/20210407-wall/'+filename_png[k-1]+'.json')))
+            appenders = get_elements(re.sub(r"[^a-zA-Z0-9/_.-]","",str('labeled/20210407-wall/'+filename_png[k]+'.json')))
             for x, lst in zip(appenders, arrLists):
                 lst.append(x)
             lst_no.append(k+1)
     for i in range(len(filename_json_4)):    
         if filename_json_4[i,0] == filename_png[k,0]:
             index[k+1].append(1)
-            appenders = get_elements(re.sub(r"[^a-zA-Z0-9/_.-]","",str('labeled/20210416-MRT_Station/'+filename_png[k-1]+'.json')))
+            appenders = get_elements(re.sub(r"[^a-zA-Z0-9/_.-]","",str('labeled/20210416-MRT_Station/'+filename_png[k]+'.json')))
             for x, lst in zip(appenders, arrLists):
                 lst.append(x)
             lst_no.append(k+1)
